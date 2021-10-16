@@ -99,7 +99,7 @@ class LinkedListDemo {
 					itr = itr.next;
 				}
 				
-				if(itr==null)
+				if(itr.next==null)
 					System.out.println("element not found");
 				else {
 					System.out.println("element " + itr.next.value + " deleted");
